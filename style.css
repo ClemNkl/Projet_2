@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
+#droitebis, #gauchebis, p, table, #colonne, #icone
+{
+	padding-top:5%;
+}
+
+#droitebis, #gauchebis, #formation, #experience, #colonne, p, #icone
+{
+	padding-bottom:5%;
+}
+
+body
+{
+	font-family: 'Lato', cursive;
+}
+
+header
+{
+	line-height:40px;
+}
+
+h1, h2, h3
+{
+	font-family: 'Cookie', cursive;
+}
+
+h1
+{
+	font-size: 3em;
+}
+
+.violet
+{
+	color:#BA68C8;
+}
+
+.violet2
+{
+	color:#7B1FA2;
+}
+
+h2
+{
+	font-size: 2em;
+}
+
+h3
+{
+	font-size: 2.5em;
+}
+
+#droite h3
+{
+	text-align:center;
+}
+
+#gauchebis h2 span
+{
+	border-bottom: 2px solid #7B1FA2;
+}
+
+.corps h3
+{
+	border-bottom: 2px solid #7B1FA2;
+}
+
+#photo
+{
+	width:200px;
+	height:200px;
+	border:3px solid #BA68C8;
+	border-radius:100px;
+}
+
+#contact, #propos, #loisirs, #formation, #experience, #recommandations
+{
+	width:100%;
+}
+
+.menu
+{
+	width:100%;
+	background-color:#7B1FA2;
+	color:white;
+}
+
+#formation, #experience, #recommandations, p
+{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+#colonne
+{
+	display:flex;
+	justify-content:space-between;
+}
+
+td 
+{
+	vertical-align: top;
+	padding: 15px;
+	text-align: left;
+}
+
+li
+{
+	/*list-style-type:circle;*/
+	color:#7B1FA2;
+}
+
+.date
+{
+	color: black;
+	font-weight:bold;
+}
+
+#icone
+{
+	display:flex;
+	justify-content:space-around;
+	font-size:2.5em;
+}
+
+@media (max-width: 800px)
+{
+.element:nth-child(2)
+{
+    order: 1;
+}
+
+.element:nth-child(1)
+{
+    order: 2;
+}
+	
+header
+{
+	text-align:center;
+	background-color:#CE93D8;
+}
+
+.violet
+{
+	color:#7B1FA2;
+}
+
+#contenu, #droite, #gauche
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#droite, #gauche
+{
+	
+	width:100%;
+}
+
+#droite
+{
+	background-color:#CE93D8;
+}
+
+#formation
+{
+	padding-top:5%;
+}
+
+#recommandations
+{
+	padding-bottom:5%;
+}
+
+}
+
+@media (min-width: 800px)
+{
+header
+{
+	display:flex;
+}
+
+#contenu, #droite, #gauche
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#droite, #droitebis
+{
+	background-color:#CE93D8;
+	width:30%;
+}
+
+#droitebis
+{
+	padding-top:50px;
+	text-align:center;
+}
+
+#gauche
+{
+	width:70%;
+}
+
+#gauchebis
+{
+	width:65%;
+	padding-left: 3.5%;
+	padding-top:170px;
+}
+}
