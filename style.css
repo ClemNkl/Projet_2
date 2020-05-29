@@ -131,6 +131,7 @@ a
 	color:black;
 }
 
+/*Propriétés spécifiques pour les écrans inférieurs à 800px de large*/
 @media screen and (max-width: 800px)
 {
 .element:nth-child(2)
@@ -183,6 +184,7 @@ header
 
 }
 
+/*Propriétés spécifiques pour les écrans supérieurs à 800px de large*/
 @media all and (min-width: 800px)
 {
 header
